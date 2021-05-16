@@ -24,7 +24,7 @@ This app is build using NodeJS, Socket.io, and Peerjs(WebRTC)
 
 This project is just for entertainment purposes. IT IS NOT TO BE USED IN A PROFESSIONAL SETTING!!
 
-### ToDo
+### To Do:
 
 - [ ] - Create "Leave Meeting" Button
 - [ ] - Create Frontend with React
