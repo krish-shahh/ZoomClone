@@ -1,6 +1,6 @@
-# ZoomClone-v1
+# ZoomClone
 
-ZoomClone-v1 is a video chat app that makes it easy to groups up with people you want to meet. 
+ZoomClone is a video chat app that makes it easy to groups up with people you want to meet. 
 
 ## Features:
 
@@ -18,5 +18,9 @@ This app is build using NodeJS, Socket.io, and Peerjs(WebRTC)
 2. Open the command prompt from your project directory and run the command `npm start`.
 3. Go to your browser and type `http://127.0.0.1:5000/` in the address bar.
 4. Hurray! That's it.
+
+## Disclaimer:
+
+This project is just for entertainment purposes. IT IS NOT TO BE USED IN A PROFESSIONAL SETTING!!
 
 
