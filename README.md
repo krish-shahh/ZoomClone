@@ -11,7 +11,7 @@ ZoomClone is a video chat app that makes it easy to groups up with people you wa
 5. Name Customization
 6. Support up to 4 Participants
 
-This app is build using NodeJS, Socket.io, and Peerjs(WebRTC)
+This app is build using NodeJS, Socket.io, and WebRTC(PeerJs)
 
 ## How to run the project?
 
