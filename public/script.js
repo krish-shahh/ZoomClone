@@ -91,6 +91,7 @@ text.addEventListener("keydown", (e) => {
 const inviteButton = document.querySelector("#inviteButton");
 const muteButton = document.querySelector("#muteButton");
 const stopVideo = document.querySelector("#stopVideo");
+const leaveButton = document.querySelector("#leaveButton");
 muteButton.addEventListener("click", () => {
   const enabled = myVideoStream.getAudioTracks()[0].enabled;
   if (enabled) {
@@ -126,6 +127,10 @@ inviteButton.addEventListener("click", (e) => {
     "Copy this link and send it to people you want to meet with",
     window.location.href
   );
+});
+inviteButton.addEventListener("click", (e) => {
+  webrtc.stopLocalVideo();
+  webrtc.leaveRoom();
 });
 
 socket.on("createMessage", (message, userName) => {
